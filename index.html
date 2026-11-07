@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barkamol avlod</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <nav>
+        <div class="logo">BARKAMOL<span>.</span></div>
+        <a href="#loyiha">Loyiha haqida</a>
+        <a href="#yonalishlar">Yo‘nalishlar</a>
+        <a href="#topshiriqlar">Topshiriqlar</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <div class="hero-content">
+        <p class="subtitle">INTEGRATSIYALASHGAN TA’LIM LOYIHASI</p>
+        <h1>BARKAMOL AVLOD — <span>KELAJAK BUNYODKORI</span></h1>
+        <p>
+            O‘quvchilarni har tomonlama rivojlantirish,
+            ularning bilim, ko‘nikma va ijodiy salohiyatini
+            birgalikda shakllantirishga qaratilgan loyiha.
+        </p>
+        <a href="#yonalishlar" class="button">Loyihani boshlash ↗</a>
+    </div>
+    <div class="hero-circle">✦</div>
+</section>
+
+<section id="loyiha" class="about">
+    <h2>Loyiha maqsadi</h2>
+    <p>
+        O‘quvchilarning aqliy, ma’naviy, jismoniy, ijodiy va
+        ijtimoiy rivojlanishini yagona ta’lim jarayonida
+        uyg‘unlashtirish hamda mustaqil fikrlaydigan,
+        faol va mas’uliyatli shaxsni tarbiyalash.
+    </p>
+</section>
+
+<section id="yonalishlar" class="directions">
+    <div class="section-title">
+        <p>RIVOJLANISHNING 5 MUHIM YO‘NALISHI</p>
+        <h2>Har tomonlama rivojlanish</h2>
+    </div>
+
+    <div class="cards">
+        <div class="card">
+            <div class="icon">🧠</div>
+            <h3>Aqliy rivojlanish</h3>
+            <p>Tanqidiy fikrlash, bilim olish va muammolarga yechim topish.</p>
+            <span>01 / INTELLEKT</span>
+        </div>
+
+        <div class="card">
+            <div class="icon">🤝</div>
+            <h3>Ma’naviy-axloqiy tarbiya</h3>
+            <p>Odob, hurmat, halollik va milliy qadriyatlarni shakllantirish.</p>
+            <span>02 / QADRIYAT</span>
+        </div>
+
+        <div class="card">
+            <div class="icon">🌿</div>
+            <h3>Jismoniy va ekologik rivojlanish</h3>
+            <p>Sog‘lom turmush tarzi va tabiatga mas’uliyatli munosabat.</p>
+            <span>03 / SALOMATLIK</span>
+        </div>
+
+        <div class="card">
+            <div class="icon">🎨</div>
+            <h3>Ijodiy-estetik rivojlanish</h3>
+            <p>San’at, dizayn, musiqa va ijodiy qobiliyatlarni rivojlantirish.</p>
+            <span>04 / IJOD</span>
+        </div>
+
+        <div class="card">
+            <div class="icon">🌍</div>
+            <h3>Ijtimoiy rivojlanish</h3>
+            <p>Muloqot, hamkorlik, jamoada ishlash va yetakchilik.</p>
+            <span>05 / JAMIYAT</span>
+        </div>
+    </div>
+</section>
+
+<section class="integration">
+    <div>
+        <p class="subtitle">FANLARARO HAMKORLIK</p>
+        <h2>Integratsiya — samarali ta’lim asosi</h2>
+        <p>
+            Loyiha doirasida turli fanlar o‘zaro bog‘lanadi.
+            O‘quvchilar nazariy bilimlarini amaliy faoliyatda
+            qo‘llash imkoniyatiga ega bo‘ladilar.
+        </p>
+    </div>
+
+    <div class="subjects">
+        <span>📚 Ona tili</span>
+        <span>🔬 Tabiiy fanlar</span>
+        <span>💻 Informatika</span>
+        <span>🎨 Tasviriy san’at</span>
+        <span>⚽ Jismoniy tarbiya</span>
+        <span>🏛 Tarix</span>
+    </div>
+</section>
+
+<section id="topshiriqlar" class="tasks">
+    <div class="section-title">
+        <p>AMALIY FAOLIYAT</p>
+        <h2>O‘zingizni sinab ko‘ring!</h2>
+    </div>
+
+    <div class="task-list">
+        <div class="task">
+            <div>
+                <h3>01. Aqliy salohiyat</h3>
+                <p>Biror muammoni tanlang va unga 3 ta yechim taklif qiling.</p>
+            </div>
+            <button onclick="completeTask(this)">Bajarildi</button>
+        </div>
+
+        <div class="task">
+            <div>
+                <h3>02. Ezgu qadriyatlar</h3>
+                <p>Yaxshilik va hurmat mavzusida kichik hikoya yozing.</p>
+            </div>
+            <button onclick="completeTask(this)">Bajarildi</button>
+        </div>
+
+        <div class="task">
+            <div>
+                <h3>03. Ekologik tashabbus</h3>
+                <p>Maktab yoki mahallada ekologik loyiha taklif qiling.</p>
+            </div>
+            <button onclick="completeTask(this)">Bajarildi</button>
+        </div>
+
+        <div class="task">
+            <div>
+                <h3>04. Ijodiy loyiha</h3>
+                <p>O‘zingiz qiziqqan mavzuda ijodiy mahsulot yarating.</p>
+            </div>
+            <button onclick="completeTask(this)">Bajarildi</button>
+        </div>
+
+        <div class="task">
+            <div>
+                <h3>05. Jamoaviy ish</h3>
+                <p>Do‘stlaringiz bilan kichik jamoaviy loyiha tashkil qiling.</p>
+            </div>
+            <button onclick="completeTask(this)">Bajarildi</button>
+        </div>
+    </div>
+
+    <div class="progress-box">
+        <div class="progress-info">
+            <span>Loyihani bajarish jarayoni</span>
+            <span id="progressText">0 / 5</span>
+        </div>
+        <div class="progress-bar">
+            <div id="progressFill"></div>
+        </div>
+    </div>
+</section>
+
+<section class="result">
+    <p>LOYIHANING KUTILAYOTGAN NATIJASI</p>
+    <h2>Bilimli, ijodkor, sog‘lom va faol avlod!</h2>
+    <p>
+        Har tomonlama rivojlangan o‘quvchi — jamiyatning
+        yorqin kelajagi va taraqqiyot poydevoridir.
+    </p>
+    <button onclick="window.print()" class="button">PDF sifatida saqlash ↓</button>
+</section>
+
+<footer>
+    <h3>BARKAMOL<span>.</span></h3>
+    <p>Integratsiyalashgan ta’lim loyihasi | 2026</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
